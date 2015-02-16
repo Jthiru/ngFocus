@@ -1,0 +1,51 @@
+{
+  "navbar": {
+    "navbarright": false,
+    "tabs": [
+      {
+        "caption": "Focus",
+        "isLink": true,
+        "sref": "#"
+      },
+      {
+        "caption": "Reflect",
+        "isLink": true,
+        "sref": "#"
+      },
+      {
+        "caption": "Learn",
+        "isLink": true,
+        "sref": "#"
+      }
+    ]
+  },
+  "usermenu": {
+    "menuitems": [
+      {
+        "caption": "My Profile",
+        "nobutton": false
+      },
+      {
+        "caption": "My Content Drive",
+        "nobutton": false
+      },
+      {
+        "caption": "Goal Settings",
+        "nobutton": false
+      },
+      {
+        "caption": "Administration View",
+        "nobutton": false
+      },
+      {
+        "caption": "User View",
+        "nobutton": false
+      },
+      {
+        "caption": "Sign Out",
+        "nobutton": true
+      }
+    ],
+    "username": "Rob Hernandez"
+  }
+}

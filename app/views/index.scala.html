@@ -1,3 +1,18 @@
-@(message: String)
+@(title: String)
 
-@main("Reflect MMXV")
+<!doctype html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <title>@title</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="@util.cdn.ui_common("/bootstrap/dist/css/bootstrap.css")"/>
+    </head>
+    <body>
+        Landing page is context-sensitive; Click below to preview:
+        <ul>
+            <li><a href="/evalhome">Evaluator home</a></li>
+        </ul>
+    </body>
+</html>
