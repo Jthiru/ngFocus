@@ -1,0 +1,14 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /                           controllers.Application.index
+GET     /evalhome                   @controllers.JApplication.home()
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.at(path="/public", file)
+
+# ui_common integrations
+GET     /bower_components/*file     controllers.Assets.at(path="/public/bower_components", file)
+GET     /fonts/*file     controllers.Assets.at(path="/public/styles/fonts", file)

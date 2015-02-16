@@ -1,0 +1,17 @@
+<div>
+    <navbar>
+        <div ng-repeat="tab in navbar.tabs">
+            <nav-link sref="evalHome" ng-if="tab.isLink" text="{{tab.caption}}" navbarright="tab.navbarright"></nav-link>
+        </div>
+        <nav-link sref="evalHome" text="Help" navbarright="true"></nav-link>
+        <nav-dropdown text="{{usermenu.username}}" navbarright="true">
+            <div ng-repeat="item in usermenu.menuitems">
+                <nav-dropdown-menu text="{{item.caption}}" subtexts="item.menuitems" nobutton="item.nobutton"></nav-dropdown-menu>
+            </div>
+        </nav-dropdown>
+    </navbar>
+    <page-header>
+        <h2>{{pagedata.caption}}</h2>
+    </page-header>
+    <footr></footr>
+</div>
